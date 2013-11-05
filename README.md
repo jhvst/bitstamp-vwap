@@ -10,6 +10,7 @@ You can choose either 'minute', 'hour' or 'day' as arguments to btc.js and vwap.
 ##Example usage
 
 node vwap minute
+
 node btc hour
 
 The data will be saved on corresponding .json file. By copying the data from the file you can also draw a simple graph of the rates by inserting them to app.js. The script takes no arguments.
