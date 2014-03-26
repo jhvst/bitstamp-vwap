@@ -1,18 +1,14 @@
 bitstamp-vwap
 =============
 
-Calculates VWAP from Bitstamp.net
+[Screenshot](./examples/result.png)
 
-The script supports three different update frequencys. The btc.js will fetch the latest market price, while vwap.js will calculate the VWAP of the given timespan.
+Calculates and draws graph for VWAP and Bitcoin last price according to data from Bitstamp.net.
 
-You can choose either 'minute', 'hour' or 'day' as arguments to btc.js and vwap.js. It will also determine the interval of which the program will fetch new rates. Given no argument the program will fetch hourly rates.
+##How to use
 
-##Example usage
+See examples/simple.js and read main.js for method documentation.
 
-node vwap minute
-node btc hour
+##Why and what?
 
-The data will be saved on corresponding .json file. By copying the data from the file you can also draw a simple graph of the rates by inserting them to app.js. The script takes no arguments.
-
-
-
+VWAP may help you forecast how Bitcoin price fluctuates.
