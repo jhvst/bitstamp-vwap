@@ -1,3 +1,6 @@
+ATTENTION: VWAP rate is now provided in the [public ticker](https://www.bitstamp.net/api/ticker/) of Bitstamp API
+=============
+
 bitstamp-vwap
 =============
 
